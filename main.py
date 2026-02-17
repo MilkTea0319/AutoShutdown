@@ -18,7 +18,7 @@ APP_NAME = "自動關機"
 PORT_ID = 53117
 CONFIG_DIR = os.path.join(os.environ['APPDATA'], "AutoShutdown")
 CONFIG_FILE = os.path.join(CONFIG_DIR, "config.json")
-ICON_FILENAME = "icon.ico"
+ICON_FILENAME = "image/icon.ico"
 
 # 深色模式配色表
 COLORS = {
