@@ -507,7 +507,7 @@ class ShutdownApp:
     def execute_shutdown(self):
         self.is_running = False
         self.lbl_status.config(text="執行關機中...", fg="#ff5252")
-        os.system("shutdown /s /t 0")
+        os.system("shutdown -p -f")
 
     def on_close(self):
         if self.is_running:
